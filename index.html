@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="top_navbar">
+            <div class="logo">
+                <a>Hospital Management System</a>
+            </div>
+            <div class="top_menu">
+                <div class="home_link">
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <span>Home</span>
+                    </a>
+                </div>
+                <div class="right_info">
+                    <div class="icon_wrap">
+                        <div class="icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                    </div>
+                    <div class="icon_wrap">
+                        <div class="icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_body">
+
+            <div class="sidebar_menu">
+                <div class="inner__sidebar_menu">
+
+                    <ul>
+                        <li><a href="dashboard.html">
+                                <i class="fas fa-hospital"></i>
+                                <span class="nav-item">Dashboard</span>
+                            </a></li>
+                        <li><a href="doctor.html">
+                                <i class="fas fa-user-md"></i>
+                                <span class="nav-item">Doctors</span>
+                            </a></li>
+                        <li><a href="patient.html">
+                                <i class="fas fa-user"></i>
+                                <span class="nav-item">Patients</span>
+                            </a></li>
+                        <li><a href="nurse.html">
+                                <i class="fas fa-user-nurse"></i>
+                                <span class="nav-item">Nurses</span>
+                            </a></li>
+                        <li><a href="addNewDoctor.html">
+                                <i class="fas fa-plus"></i>
+                                <span class="nav-item">Add New Doctor</span>
+                            </a></li>
+                        <li><a href="appointment.html">
+                                <i class="fas fa-cog"></i>
+                                <span class="nav-item">Appointment</span>
+                            </a></li>
+                        <li><a href="payment.html">
+                                <i class="fas fa-file-invoice-dollar"></i>
+                                <span class="nav-item">Payment</span>
+                            </a></li>
+                        <li><a href="addNewPatint.html">
+                                <i class="fas fa-plus"></i>
+                                <span class="nav-item">Add New Patient</span>
+                            </a></li>
+                        <li><a href="">
+                                <i class="fas fa-sign-out-alt"></i>
+                                <span class="nav-item">Logout</span>
+                            </a></li>
+                    </ul>
+
+                    <!-- <div class="hamburger">
+                        <div class="inner_hamburger">
+                            <span class="arrow">
+                                <i class="fas fa-long-arrow-alt-left"></i>
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </span>
+                        </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+            <div class="container">
+                <section class="main">
+                    <h3 class="dashboard">Dashboard</h3>
+                    <section class="second-main">
+                        <div class="box">
+                            <div class="content">
+                                <div class="number">4</div>
+                                <div class="text">Doctors</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="content">
+                                <div class="number">12</div>
+                                <div class="text">Patient</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="content">
+                                <div class="number">5</div>
+                                <div class="text">Nurses</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="content">
+                                <div class="number">2</div>
+                                <div class="text">Pharmacist</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="content">
+                                <div class="number">1</div>
+                                <div class="text">Laboratorist</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="second-main">
+                        <div class="box">
+                            <div class="content">
+                                <div class="number">2</div>
+                                <div class="text">Accountant</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="content">
+                                <div class="number">1</div>
+                                <div class="text">Payment</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="content">
+                                <div class="number">1</div>
+                                <div class="text">Medicine</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="content">
+                                <div class="number">15</div>
+                                <div class="text">Appointment</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="content">
+                                <div class="number">₹ 40000</div>
+                                <div class="text">Earnings</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="table__body">
+                        <h1>New patient list</h1>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th> First Name </th>
+                                    <th> Last Name </th>
+                                    <th> Username </th>
+                                    <th> Diseases </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> 1 </td>
+                                    <td> Mansur</td>
+                                    <td> Alam </td>
+                                    <td> @root </td>
+                                    <td>
+                                        <p class="status delivered">Cancer</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> 2 </td>
+                                    <td>Mansur</td>
+                                    <td> Alam </td>
+                                    <td> @root </td>
+                                    <td>
+                                        <p class="status cancelled">Fiver</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> 3</td>
+                                    <td>Mansur</td>
+                                    <td> Alam </td>
+                                    <td> @root</td>
+                                    <td>
+                                        <p class="status shipped">Lakva</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> 4</td>
+                                    <td>Mansur</td>
+                                    <td> Alam </td>
+                                    <td> @root </td>
+                                    <td>
+                                        <p class="status delivered">Dental</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> 5</td>
+                                    <td>Mansur</td>
+                                    <td> Alam </td>
+                                    <td>@root</td>
+                                    <td>
+                                        <p class="status pending">Cancer</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> 6</td>
+                                    <td>Mansur </td>
+                                    <td> Alam</td>
+                                    <td> @root</td>
+                                    <td>
+                                        <p class="status cancelled">Dental</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
